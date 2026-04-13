@@ -39,7 +39,7 @@ with st.sidebar:
 main_df = all_df[(all_df["date_day"] >= str(start_date)) & 
                 (all_df["date_day"] <= str(end_date))]
 
-st.title('🚲 Rental Sepeda Setiap Hari: Dashboard Analisis')
+st.title('🚲 Dashboard Analisis Rental Sepeda')
 
 col1, col2, col3 = st.columns(3)
 with col1:
