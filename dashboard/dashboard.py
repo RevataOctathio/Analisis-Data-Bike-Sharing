@@ -34,6 +34,7 @@ with st.sidebar:
     st.write("**Nama:** Revata Octathio")
     st.write("**Email:** revataoct@gmail.com")
     st.write("**Kelas:** CDC-08")
+    st.write("**ID Cohort: CDCC009D6Y1013**")
 
 main_df = all_df[(all_df["date_day"] >= str(start_date)) & 
                 (all_df["date_day"] <= str(end_date))]
